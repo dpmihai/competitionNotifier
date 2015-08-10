@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="textColor">#36797f</color>   
+	<color name="dashboardTitleColor">#73c5d3</color>
+    <color name="widgetTitleColor">#66CD00</color>
+    <color name="separatorColor">#575757</color>    
+    <color name="backgroundTitleColor">#dedfde</color>
+</resources>

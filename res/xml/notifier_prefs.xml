@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+	android:title="Competition Notifier Preferences"
+    android:key="Notifier_prefscreen" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="Server">
+    	<EditTextPreference 
+    		android:title="Url"
+        	android:key="notifier_url" 
+        	android:summary="Set Competition Notifier Url"
+        	android:defaultValue="@string/notifier_url" 
+        	android:dialogTitle="Competition Notifier Url"
+        	android:inputType="text"  />    	
+    </PreferenceCategory>    
+        
+    <PreferenceCategory android:title="Job">    
+    	<EditTextPreference 
+    		android:title="Hour"
+        	android:key="job_hour" 
+        	android:summary="Set Hour for Notifier Job"
+        	android:defaultValue="@string/job_hour" 
+        	android:dialogTitle="Hour for Notifier Job"
+        	android:inputType="number"  /> 
+        	
+    	<EditTextPreference 
+    		android:title="Minute"
+        	android:key="job_minute" 
+        	android:summary="Set Minute for Notifier Job"
+        	android:defaultValue="@string/job_minute" 
+        	android:dialogTitle="Minute for Notifier Job"
+        	android:inputType="number"  /> 
+    </PreferenceCategory>      	     
+                                     
+</PreferenceScreen>
