@@ -1,6 +1,6 @@
 #CompetitionNotifier
 
-CompetitionNotifier is an Android application which will send SMS notifications to Competitions users.
+CompetitionNotifier is an Android application which will send SMS notifications to Competitions users. Application is connecting to a Competition server to obtain notification data like which users have to complete some upcoming games/stages.
 
 ![](/doc/screenshots/compnot.png)
 
